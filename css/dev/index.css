@@ -74,7 +74,7 @@ address {
 @font-face { 
 	font-family: "iconfont"; 
 	font-display: swap;
-	src: url("../assets/fonts/iconfont.woff2?4283b06d66f66ddf96b020fc5b094d15") format("woff2"); 
+	src: url("../assets/fonts/iconfont.woff2?b1759c4f7d895c29f4e6eda2b9a70435") format("woff2"); 
 } 
 [class*="--icon-"]::before{
 	font-family: iconfont; 

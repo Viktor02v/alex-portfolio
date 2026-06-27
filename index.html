@@ -4,12 +4,12 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1782557401123"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1782557401123">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1782557401123">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1782558406749"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1782558406749">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1782558406749">
 	</head>
 	<body>
-		<div data-fls-fullpage="" class="wrapper">
+		<div class="wrapper">
 			<header data-fls-header="" class="header">
 				<div class="header__container">
 					<a href="#" class="header__logo-link">
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</header>
-			<main class="page">
+			<main data-fls-fullpage="" class="page">
 				<div data-fls-index="" class="page page--index">
 					<!-- Hero -->
 					<section data-fls-fullpage-section="" class="page__hero hero">
@@ -565,71 +565,71 @@
 						</div>
 					</section>
 				</div>
-			</main>
-			<div data-fls-fullpage-section="" class="page__bottom bottom">
-				<section class="page__contacts contacts">
-					<div class="contacts__container">
-						<div class="contacts__content">
-							<form data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="/sendmail" class="contacts__form form">
-								<div class="form__item">
-									<input required data-fls-input="" type="text" name="form[name]" data-fls-form-errtext="Error" placeholder="Name" class="form__input" autocomplete="off">
+				<div data-fls-fullpage-section="" class="page__bottom bottom">
+					<section class="page__contacts contacts">
+						<div class="contacts__container">
+							<div class="contacts__content">
+								<form data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="/sendmail" class="contacts__form form">
+									<div class="form__item">
+										<input required data-fls-input="" type="text" name="form[name]" data-fls-form-errtext="Error" placeholder="Name" class="form__input" autocomplete="off">
+									</div>
+									<div class="form__item">
+										<input required data-fls-input="" autocomplete="off" type="text" name="form[email]" data-fls-form-errtext="Error" placeholder="Email" class="form__input">
+									</div>
+									<div class="form__item">
+										<textarea data-fls-input="" autocomplete="off" name="form[message]" placeholder="Message" data-error="Error" class="textarea form__input"></textarea>
+									</div>
+									<div class="form__item">
+										<button type="submit" class="form__button">Send Message</button>
+									</div>
+								</form>
+								<div class="contacts__body">
+									<ul class="contacts__list">
+										<li class="contacts__item item-contacts">
+											<div class="item-contacts__icon">
+												<img src="./assets/img/contacts/01.svg" alt="Image">
+											</div>
+											<div class="item-contacts__body">
+												<div class="item-contacts__title">Address</div>
+												<a href="#" class="item-contacts__text">3424 Layman Avenue, Fayetteville, NC</a>
+											</div>
+										</li>
+										<li class="contacts__item item-contacts">
+											<div class="item-contacts__icon">
+												<img src="./assets/img/contacts/02.svg" alt="Image">
+											</div>
+											<div class="item-contacts__body">
+												<div class="item-contacts__title">Phone</div>
+												<a href="tel:5014141541" class="item-contacts__text">(501) 414-1541</a>
+											</div>
+										</li>
+										<li class="contacts__item item-contacts">
+											<div class="item-contacts__icon">
+												<img src="./assets/img/contacts/03.svg" alt="Image">
+											</div>
+											<div class="item-contacts__body">
+												<div class="item-contacts__title">E-Mail</div>
+												<a href="mailto:devchapter@gmail.com" class="item-contacts__text">devchapter@gmail.com</a>
+											</div>
+										</li>
+									</ul>
 								</div>
-								<div class="form__item">
-									<input required data-fls-input="" autocomplete="off" type="text" name="form[email]" data-fls-form-errtext="Error" placeholder="Email" class="form__input">
-								</div>
-								<div class="form__item">
-									<textarea data-fls-input="" autocomplete="off" name="form[message]" placeholder="Message" data-error="Error" class="textarea form__input"></textarea>
-								</div>
-								<div class="form__item">
-									<button type="submit" class="form__button">Send Message</button>
-								</div>
-							</form>
-							<div class="contacts__body">
-								<ul class="contacts__list">
-									<li class="contacts__item item-contacts">
-										<div class="item-contacts__icon">
-											<img src="./assets/img/contacts/01.svg" alt="Image">
-										</div>
-										<div class="item-contacts__body">
-											<div class="item-contacts__title">Address</div>
-											<a href="#" class="item-contacts__text">3424 Layman Avenue, Fayetteville, NC</a>
-										</div>
-									</li>
-									<li class="contacts__item item-contacts">
-										<div class="item-contacts__icon">
-											<img src="./assets/img/contacts/02.svg" alt="Image">
-										</div>
-										<div class="item-contacts__body">
-											<div class="item-contacts__title">Phone</div>
-											<a href="tel:5014141541" class="item-contacts__text">(501) 414-1541</a>
-										</div>
-									</li>
-									<li class="contacts__item item-contacts">
-										<div class="item-contacts__icon">
-											<img src="./assets/img/contacts/03.svg" alt="Image">
-										</div>
-										<div class="item-contacts__body">
-											<div class="item-contacts__title">E-Mail</div>
-											<a href="mailto:devchapter@gmail.com" class="item-contacts__text">devchapter@gmail.com</a>
-										</div>
-									</li>
-								</ul>
 							</div>
 						</div>
-					</div>
-				</section>
-				<footer data-fls-footer="" class="footer">
-					<div class="footer__container">
-						<div data-fls-social="" class="footer__social social">
-							<a href="#" class="social__link --icon-s-insta"></a>
-							<a href="#" class="social__link --icon-s-github"></a>
-							<a href="#" class="social__link --icon-s-twitter"></a>
-							<a href="#" class="social__link --icon-s-linkedin"></a>
+					</section>
+					<footer data-fls-footer="" class="footer">
+						<div class="footer__container">
+							<div data-fls-social="" class="footer__social social">
+								<a href="#" class="social__link --icon-s-insta"></a>
+								<a href="#" class="social__link --icon-s-github"></a>
+								<a href="#" class="social__link --icon-s-twitter"></a>
+								<a href="#" class="social__link --icon-s-linkedin"></a>
+							</div>
+							<div class="footer__copy">© 2022 - DevChapter</div>
 						</div>
-						<div class="footer__copy">© 2022 - DevChapter</div>
-					</div>
-				</footer>
-			</div>
+					</footer>
+				</div>
+			</main>
 		</div>
 	</body>
 </html>
