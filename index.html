@@ -4,632 +4,630 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1782558484652"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1782558484652">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1782558484652">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1782558525939"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1782558525939">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1782558525939">
 	</head>
 	<body data-fls-fullpage="">
-		<div class="wrapper">
-			<header data-fls-header="" class="header">
-				<div class="header__container">
-					<a href="#" class="header__logo-link">
-						<img src="./assets/img/logo.svg" alt="Logo" class="header__logo">
-					</a>
-					<div class="header__menu menu">
-						<nav class="menu__body">
-							<ul class="menu__list">
-								<li data-fls-scrollto=".services" class="menu__item">Services</li>
-								<li data-fls-scrollto=".portfolio" class="menu__item">Portfolios</li>
-								<li data-fls-scrollto=".career" class="menu__item">Experience</li>
-								<li data-fls-scrollto=".blog" class="menu__item">Blog</li>
-							</ul>
-						</nav>
-					</div>
-					<!--
+		<header data-fls-header="" class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo-link">
+					<img src="./assets/img/logo.svg" alt="Logo" class="header__logo">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li data-fls-scrollto=".services" class="menu__item">Services</li>
+							<li data-fls-scrollto=".portfolio" class="menu__item">Portfolios</li>
+							<li data-fls-scrollto=".career" class="menu__item">Experience</li>
+							<li data-fls-scrollto=".blog" class="menu__item">Blog</li>
+						</ul>
+					</nav>
+				</div>
+				<!--
 <fetch url="@components/layout/menu/menu.json">
 <each loop='item in response'>
 </each>
 </fetch>
 -->
-					<div class="header__actions">
-						<a href="#" class="header__button">Resume</a>
-						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
-							<span></span>
-						</button>
-					</div>
+				<div class="header__actions">
+					<a href="#" class="header__button">Resume</a>
+					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+						<span></span>
+					</button>
 				</div>
-			</header>
-			<main class="page">
-				<div data-fls-index="" class="page page--index">
-					<!-- Hero -->
-					<section data-fls-fullpage-section="" class="page__hero hero">
-						<div class="hero__container">
-							<div class="hero__content">
-								<div data-fls-title="" class="hero__title title">
-									<div class="title__label">MY NAME IS</div>
-									<h1 class="title__value title__value--big">
-										Alex
-										<span>Smith.</span>
-									</h1>
-								</div>
-								<div data-fls-text="" class="hero__text text">
-									<p>
-										Creative front-end developer with more than +5 years of experience in enterprise companies and startups.
+			</div>
+		</header>
+		<main class="page">
+			<div data-fls-index="" class="page page--index">
+				<!-- Hero -->
+				<section data-fls-fullpage-section="" class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__content">
+							<div data-fls-title="" class="hero__title title">
+								<div class="title__label">MY NAME IS</div>
+								<h1 class="title__value title__value--big">
+									Alex
+									<span>Smith.</span>
+								</h1>
+							</div>
+							<div data-fls-text="" class="hero__text text">
+								<p>
+									Creative front-end developer with more than +5 years of experience in enterprise companies and startups.
             Proficient in JavaScript, Angular,
-										<br>
-										and React. Passionate about UI/UX
+									<br>
+									and React. Passionate about UI/UX
+								</p>
+							</div>
+							<div data-fls-social="" class="hero__social social">
+								<a href="#" class="social__link --icon-s-insta"></a>
+								<a href="#" class="social__link --icon-s-github"></a>
+								<a href="#" class="social__link --icon-s-twitter"></a>
+								<a href="#" class="social__link --icon-s-linkedin"></a>
+							</div>
+						</div>
+						<fugure class="hero__decor decor-hero">
+							<div class="decor-hero__body">
+								<div class="decor-hero__box">
+									<div class="decor-hero__picture">
+										<picture>
+											<img class="decor-hero__image" alt="Image" src="./assets/img/hero/image.webp">
+										</picture>
+									</div>
+								</div>
+							</div>
+						</fugure>
+					</div>
+				</section>
+				<!-- Services -->
+				<section data-fls-fullpage-section="" class="page__services services">
+					<div class="services__container">
+						<div data-fls-title="" class="services__title title">
+							<div class="title__label">SERVICES</div>
+							<h2 class="title__value">Specialized in</h2>
+						</div>
+						<div class="services__items">
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="./assets/img/services/services-01.svg" alt="Services Icon">
+								</div>
+								<h4 class="item-service__title">UI/UX Design</h4>
+								<div class="item-service__text">
+									<p>
+										Turn what you have in mind of a digital product into reality. For any platform you consider.
 									</p>
 								</div>
-								<div data-fls-social="" class="hero__social social">
-									<a href="#" class="social__link --icon-s-insta"></a>
-									<a href="#" class="social__link --icon-s-github"></a>
-									<a href="#" class="social__link --icon-s-twitter"></a>
-									<a href="#" class="social__link --icon-s-linkedin"></a>
+							</article>
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="./assets/img/services/services-02.svg" alt="Services Icon">
 								</div>
+								<h4 class="item-service__title">Application Development</h4>
+								<div class="item-service__text">
+									<p>
+										Standard designing, building, and implementing your applications with documentation.
+									</p>
+								</div>
+							</article>
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="./assets/img/services/services-03.svg" alt="Services Icon">
+								</div>
+								<h4 class="item-service__title">Web Development</h4>
+								<div class="item-service__text">
+									<p>
+										Create and maintain your websites and also take care of its performance and traffic capacity.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<!-- Portfolios -->
+				<section data-fls-fullpage-section="" class="page__portfolio portfolio">
+					<div class="portfolio__container">
+						<div class="portfolio__header">
+							<div data-fls-title="" class="portfolio__title title">
+								<div class="title__label">My Works</div>
+								<h2 class="title__value">Featured Portfolios</h2>
 							</div>
-							<fugure class="hero__decor decor-hero">
-								<div class="decor-hero__body">
-									<div class="decor-hero__box">
-										<div class="decor-hero__picture">
+							<div data-fls-dynamic=".portfolio__container, 599.98, 3" class="portfolio__controls">
+								<button type="button" class="portfolio__arrow portfolio__arrow--left --icon-arrow"></button>
+								<button type="button" class="portfolio__arrow portfolio__arrow--right --icon-arrow"></button>
+							</div>
+						</div>
+						<div data-fls-slider="" class="portfolio__slider swiper">
+							<div class="portfolio__wrapper swiper-wrapper">
+								<div class="portfolio__slide swiper-slide">
+									<article class="item-portfolio">
+										<a href="#" class="item-portfolio__image">
 											<picture>
-												<img class="decor-hero__image" alt="Image" src="./assets/img/hero/image.webp">
+												<img alt="Image" src="./assets/img/portfolio/image-01.webp">
 											</picture>
-										</div>
-									</div>
-								</div>
-							</fugure>
-						</div>
-					</section>
-					<!-- Services -->
-					<section data-fls-fullpage-section="" class="page__services services">
-						<div class="services__container">
-							<div data-fls-title="" class="services__title title">
-								<div class="title__label">SERVICES</div>
-								<h2 class="title__value">Specialized in</h2>
-							</div>
-							<div class="services__items">
-								<article class="services__item item-service">
-									<div class="item-service__icon">
-										<img src="./assets/img/services/services-01.svg" alt="Services Icon">
-									</div>
-									<h4 class="item-service__title">UI/UX Design</h4>
-									<div class="item-service__text">
-										<p>
-											Turn what you have in mind of a digital product into reality. For any platform you consider.
-										</p>
-									</div>
-								</article>
-								<article class="services__item item-service">
-									<div class="item-service__icon">
-										<img src="./assets/img/services/services-02.svg" alt="Services Icon">
-									</div>
-									<h4 class="item-service__title">Application Development</h4>
-									<div class="item-service__text">
-										<p>
-											Standard designing, building, and implementing your applications with documentation.
-										</p>
-									</div>
-								</article>
-								<article class="services__item item-service">
-									<div class="item-service__icon">
-										<img src="./assets/img/services/services-03.svg" alt="Services Icon">
-									</div>
-									<h4 class="item-service__title">Web Development</h4>
-									<div class="item-service__text">
-										<p>
-											Create and maintain your websites and also take care of its performance and traffic capacity.
-										</p>
-									</div>
-								</article>
-							</div>
-						</div>
-					</section>
-					<!-- Portfolios -->
-					<section data-fls-fullpage-section="" class="page__portfolio portfolio">
-						<div class="portfolio__container">
-							<div class="portfolio__header">
-								<div data-fls-title="" class="portfolio__title title">
-									<div class="title__label">My Works</div>
-									<h2 class="title__value">Featured Portfolios</h2>
-								</div>
-								<div data-fls-dynamic=".portfolio__container, 599.98, 3" class="portfolio__controls">
-									<button type="button" class="portfolio__arrow portfolio__arrow--left --icon-arrow"></button>
-									<button type="button" class="portfolio__arrow portfolio__arrow--right --icon-arrow"></button>
-								</div>
-							</div>
-							<div data-fls-slider="" class="portfolio__slider swiper">
-								<div class="portfolio__wrapper swiper-wrapper">
-									<div class="portfolio__slide swiper-slide">
-										<article class="item-portfolio">
-											<a href="#" class="item-portfolio__image">
-												<picture>
-													<img alt="Image" src="./assets/img/portfolio/image-01.webp">
-												</picture>
-											</a>
-											<div class="item-portfolio__body">
-												<h4 class="item-portfolio__title">
-													<a href="#" class="item-portfolio__link-title">Agency Website.</a>
-												</h4>
-												<div class="item-portfolio__footer">
-													<a href="#" data-fls-category="" class="item-portfolio__category category">WordPress</a>
-													<a href="#" class="item-portfolio__link --icon-link"></a>
-												</div>
-											</div>
-										</article>
-									</div>
-									<div class="portfolio__slide swiper-slide">
-										<article class="item-portfolio">
-											<a href="#" class="item-portfolio__image">
-												<picture>
-													<img alt="Image" src="./assets/img/portfolio/image-02.webp">
-												</picture>
-											</a>
-											<div class="item-portfolio__body">
-												<h4 class="item-portfolio__title">
-													<a href="#" class="item-portfolio__link-title">Dashboard Website.</a>
-												</h4>
-												<div class="item-portfolio__footer">
-													<a href="#" data-fls-category="" class="item-portfolio__category category">React</a>
-													<a href="#" class="item-portfolio__link --icon-link"></a>
-												</div>
-											</div>
-										</article>
-									</div>
-									<div class="portfolio__slide swiper-slide">
-										<article class="item-portfolio">
-											<a href="#" class="item-portfolio__image">
-												<picture>
-													<img alt="Image" src="./assets/img/portfolio/image-03.webp">
-												</picture>
-											</a>
-											<div class="item-portfolio__body">
-												<h4 class="item-portfolio__title">
-													<a href="#" class="item-portfolio__link-title">Support Center Website.</a>
-												</h4>
-												<div class="item-portfolio__footer">
-													<a href="#" data-fls-category="" class="item-portfolio__category category">PHP</a>
-													<a href="#" class="item-portfolio__link --icon-link"></a>
-												</div>
-											</div>
-										</article>
-									</div>
-									<div class="portfolio__slide swiper-slide">
-										<article class="item-portfolio">
-											<a href="#" class="item-portfolio__image">
-												<picture>
-													<img alt="Image" src="./assets/img/portfolio/image-01.webp">
-												</picture>
-											</a>
-											<div class="item-portfolio__body">
-												<h4 class="item-portfolio__title">
-													<a href="#" class="item-portfolio__link-title">Agency Website.</a>
-												</h4>
-												<div class="item-portfolio__footer">
-													<a href="#" data-fls-category="" class="item-portfolio__category category">WordPress</a>
-													<a href="#" class="item-portfolio__link --icon-link"></a>
-												</div>
-											</div>
-										</article>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- Career -->
-					<section data-fls-fullpage-section="" class="page__career career">
-						<div data-fls-tabs="768" class="career__container">
-							<div class="career__body">
-								<div data-fls-title="" class="career__title title">
-									<div class="title__label">career path</div>
-									<h2 class="title__value">Work Experices</h2>
-								</div>
-								<nav data-fls-tabs-titles="" class="career__navigation navigation-career">
-									<button type="button" class="navigation-career__title --tab-active">Apple</button>
-									<button type="button" class="navigation-career__title">Microsoft</button>
-									<button type="button" class="navigation-career__title">Facebook</button>
-									<button type="button" class="navigation-career__title">Slack</button>
-								</nav>
-								<div data-fls-tabs-body="" class="career__content content-career">
-									<div class="content-career__body">
-										<div class="content-career__header header-content-career">
-											<h4 class="header-content-career__title">
-												Front-end Developer
-												<a href="#" class="header-content-career__link-title">Apple .Inc</a>
+										</a>
+										<div class="item-portfolio__body">
+											<h4 class="item-portfolio__title">
+												<a href="#" class="item-portfolio__link-title">Agency Website.</a>
 											</h4>
-											<div class="header-content-career__location">California, United States</div>
-											<div class="header-content-career__time">Nov 2020 - Present · Full-time</div>
-											<div class="header-content-career__categories">
-												<a href="#" data-fls-category="" class="category">Swift</a>
-												<a href="#" data-fls-category="" class="header-content-career__category category">Go</a>
+											<div class="item-portfolio__footer">
+												<a href="#" data-fls-category="" class="item-portfolio__category category">WordPress</a>
+												<a href="#" class="item-portfolio__link --icon-link"></a>
 											</div>
 										</div>
-										<div class="content-career__main main-content-career">
-											<ul class="main-content-career__list">
-												<li class="main-content-career__item">Improving overall website performance for mobile users.</li>
-												<li class="main-content-career__item">Collaborate with back-end developers and web designers to improve usability</li>
-												<li class="main-content-career__item">Add voice search feature for mobile app.</li>
-												<li class="main-content-career__item">Developing an admin panel to manage contents, users, products and ...</li>
-											</ul>
-										</div>
-									</div>
-									<div class="content-career__body">
-										<div class="content-career__header header-content-career">
-											<h4 class="header-content-career__title">
-												Front-end Developer
-												<a href="#" class="header-content-career__link-title">Microsoft</a>
+									</article>
+								</div>
+								<div class="portfolio__slide swiper-slide">
+									<article class="item-portfolio">
+										<a href="#" class="item-portfolio__image">
+											<picture>
+												<img alt="Image" src="./assets/img/portfolio/image-02.webp">
+											</picture>
+										</a>
+										<div class="item-portfolio__body">
+											<h4 class="item-portfolio__title">
+												<a href="#" class="item-portfolio__link-title">Dashboard Website.</a>
 											</h4>
-											<div class="header-content-career__location">California, United States</div>
-											<div class="header-content-career__time">Nov 2020 - Present · Full-time</div>
-											<div class="header-content-career__categories">
-												<a href="#" data-fls-category="" class="category">Swift</a>
-												<a href="#" data-fls-category="" class="header-content-career__category category">Go</a>
+											<div class="item-portfolio__footer">
+												<a href="#" data-fls-category="" class="item-portfolio__category category">React</a>
+												<a href="#" class="item-portfolio__link --icon-link"></a>
 											</div>
 										</div>
-										<div class="content-career__main main-content-career">
-											<ul class="main-content-career__list">
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatum, maiores ducimus similique
-                  commodi nihil veniam natus eos animi quidem sint reprehenderit corporis mollitia alias saepe dolores
-                  minus iste explicabo.
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi consectetur ea vero eaque,
-                  molestias
-                  minima, nulla sint odit cupiditate ad impedit eligendi voluptate veritatis explicabo, amet tenetur
-                  tempore et.
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate earum architecto ad velit.
-                  Excepturi, quidem illo. Nobis ut reprehenderit vitae, dolores facere quod aliquid similique id
-                  exercitationem vel, odit earum!
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, eveniet adipisci ipsam quae nihil
-                  doloribus reprehenderit voluptatem. Illum, consequatur quibusdam, tempora aliquid distinctio
-                  repudiandae, esse ad ullam qui perferendis alias?
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="content-career__body">
-										<div class="content-career__header header-content-career">
-											<h4 class="header-content-career__title">
-												Front-end Developer
-												<a href="#" class="header-content-career__link-title">Facebook</a>
+									</article>
+								</div>
+								<div class="portfolio__slide swiper-slide">
+									<article class="item-portfolio">
+										<a href="#" class="item-portfolio__image">
+											<picture>
+												<img alt="Image" src="./assets/img/portfolio/image-03.webp">
+											</picture>
+										</a>
+										<div class="item-portfolio__body">
+											<h4 class="item-portfolio__title">
+												<a href="#" class="item-portfolio__link-title">Support Center Website.</a>
 											</h4>
-											<div class="header-content-career__location">California, United States</div>
-											<div class="header-content-career__time">Nov 2020 - Present · Full-time</div>
-											<div class="header-content-career__categories">
-												<a href="#" data-fls-category="" class="category">Swift</a>
-												<a href="#" data-fls-category="" class="header-content-career__category category">Go</a>
+											<div class="item-portfolio__footer">
+												<a href="#" data-fls-category="" class="item-portfolio__category category">PHP</a>
+												<a href="#" class="item-portfolio__link --icon-link"></a>
 											</div>
 										</div>
-										<div class="content-career__main main-content-career">
-											<ul class="main-content-career__list">
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatum, maiores ducimus similique
-                  commodi nihil veniam natus eos animi quidem sint reprehenderit corporis mollitia alias saepe dolores
-                  minus iste explicabo.
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi consectetur ea vero eaque,
-                  molestias
-                  minima, nulla sint odit cupiditate ad impedit eligendi voluptate veritatis explicabo, amet tenetur
-                  tempore et.
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate earum architecto ad velit.
-                  Excepturi, quidem illo. Nobis ut reprehenderit vitae, dolores facere quod aliquid similique id
-                  exercitationem vel, odit earum!
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, eveniet adipisci ipsam quae nihil
-                  doloribus reprehenderit voluptatem. Illum, consequatur quibusdam, tempora aliquid distinctio
-                  repudiandae, esse ad ullam qui perferendis alias?
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="content-career__body">
-										<div class="content-career__header header-content-career">
-											<h4 class="header-content-career__title">
-												Front-end Developer
-												<a href="#" class="header-content-career__link-title">Slack</a>
+									</article>
+								</div>
+								<div class="portfolio__slide swiper-slide">
+									<article class="item-portfolio">
+										<a href="#" class="item-portfolio__image">
+											<picture>
+												<img alt="Image" src="./assets/img/portfolio/image-01.webp">
+											</picture>
+										</a>
+										<div class="item-portfolio__body">
+											<h4 class="item-portfolio__title">
+												<a href="#" class="item-portfolio__link-title">Agency Website.</a>
 											</h4>
-											<div class="header-content-career__location">California, United States</div>
-											<div class="header-content-career__time">Nov 2020 - Present · Full-time</div>
-											<div class="header-content-career__categories">
-												<a href="#" data-fls-category="" class="category">Swift</a>
-												<a href="#" data-fls-category="" class="header-content-career__category category">Go</a>
+											<div class="item-portfolio__footer">
+												<a href="#" data-fls-category="" class="item-portfolio__category category">WordPress</a>
+												<a href="#" class="item-portfolio__link --icon-link"></a>
 											</div>
 										</div>
-										<div class="content-career__main main-content-career">
-											<ul class="main-content-career__list">
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatum, maiores ducimus similique
-                  commodi nihil veniam natus eos animi quidem sint reprehenderit corporis mollitia alias saepe dolores
-                  minus iste explicabo.
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi consectetur ea vero eaque,
-                  molestias
-                  minima, nulla sint odit cupiditate ad impedit eligendi voluptate veritatis explicabo, amet tenetur
-                  tempore et.
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate earum architecto ad velit.
-                  Excepturi, quidem illo. Nobis ut reprehenderit vitae, dolores facere quod aliquid similique id
-                  exercitationem vel, odit earum!
-												</li>
-												<li class="main-content-career__item">
-													Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, eveniet adipisci ipsam quae nihil
-                  doloribus reprehenderit voluptatem. Illum, consequatur quibusdam, tempora aliquid distinctio
-                  repudiandae, esse ad ullam qui perferendis alias?
-												</li>
-											</ul>
-										</div>
-									</div>
+									</article>
 								</div>
-							</div>
-						</div>
-					</section>
-					<!-- Blog -->
-					<section data-fls-fullpage-section="" class="page__blog blog">
-						<div class="blog__container">
-							<div data-fls-title="" class="blog__title title">
-								<div class="title__label">MY ARTICLES</div>
-								<h2 class="title__value">Personal Blog</h2>
-							</div>
-							<div class="blog__items">
-								<article class="blog__item item-blog">
-									<div class="item-blog__image">
-										<picture>
-											<img alt="image-01" src="./assets/img/blog/image-01.webp">
-										</picture>
-									</div>
-									<div class="item-blog__body">
-										<h4 class="item-blog__title">
-											<a href="#" class="item-blog__link-title">How to prototype in figma</a>
-										</h4>
-										<div class="item-blog__date">July 15, 2021</div>
-										<div class="item-blog__text">
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet.
-                Fusce finibus ...
-											</p>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet.
-                Fusce finibus ...
-											</p>
-										</div>
-										<a href="#" class="item-blog__link">Continue Reading</a>
-									</div>
-								</article>
-								<article class="blog__item item-blog">
-									<div class="item-blog__image">
-										<picture>
-											<img alt="image-02" src="./assets/img/blog/image-02.webp">
-										</picture>
-									</div>
-									<div class="item-blog__body">
-										<h4 class="item-blog__title">
-											<a href="#" class="item-blog__link-title">Being more productive with Notion.</a>
-										</h4>
-										<div class="item-blog__date">Aug 8, 2020</div>
-										<div class="item-blog__text">
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet.
-                Fusce finibus ...
-											</p>
-										</div>
-										<a href="#" class="item-blog__link">Continue Reading</a>
-									</div>
-								</article>
-								<article class="blog__item item-blog">
-									<div class="item-blog__image">
-										<picture>
-											<img alt="image-03" src="./assets/img/blog/image-03.webp">
-										</picture>
-									</div>
-									<div class="item-blog__body">
-										<h4 class="item-blog__title">
-											<a href="#" class="item-blog__link-title">Beginners guide to adobe illustrator</a>
-										</h4>
-										<div class="item-blog__date">Feb 19, 2021</div>
-										<div class="item-blog__text">
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet.
-                Fusce finibus ...
-											</p>
-										</div>
-										<a href="#" class="item-blog__link">Continue Reading</a>
-									</div>
-								</article>
-							</div>
-						</div>
-					</section>
-					<!-- Testimonials -->
-					<section data-fls-fullpage-section="" class="page__testimonials testimonials">
-						<div class="testimonials__container">
-							<div data-fls-title="" class="testimonials__title title">
-								<div class="title__label">MY CLIENTS</div>
-								<h2 class="title__value">Testimonials</h2>
-							</div>
-							<div class="testimonials__items">
-								<div class="testimonials__item item-testimonial">
-									<figure class="item-testimonial__avatar">
-										<picture>
-											<img alt="Avatar" src="./assets/img/testimonials/01.webp">
-										</picture>
-									</figure>
-									<div class="item-testimonial__text text">
-										<p>
-											We were very pleased to hear how you resolved our website's user interface issues and challenges.
-										</p>
-									</div>
-									<div class="item-testimonial__name">Amelia Miller</div>
-									<a href="#" data-fls-category="" class="item-testimonial__category category">Designer</a>
-								</div>
-								<div class="testimonials__item item-testimonial">
-									<figure class="item-testimonial__avatar">
-										<picture>
-											<img alt="Avatar" src="./assets/img/testimonials/02.webp">
-										</picture>
-									</figure>
-									<div class="item-testimonial__text text">
-										<p>
-											I’m glad I decided to work with you. The project was delivered on time with all the requirements.
-										</p>
-										<p>Lorem, ipsum dolor.</p>
-									</div>
-									<div class="item-testimonial__name">James Delaney</div>
-									<a href="#" data-fls-category="" class="item-testimonial__category category">Developer</a>
-								</div>
-								<div class="testimonials__item item-testimonial">
-									<figure class="item-testimonial__avatar">
-										<picture>
-											<img alt="Avatar" src="./assets/img/testimonials/03.webp">
-										</picture>
-									</figure>
-									<div class="item-testimonial__text text">
-										<p>
-											The management of our projects was always faced with difficulties, but you handled these well.
-										</p>
-									</div>
-									<div class="item-testimonial__name">Isabella Bennett</div>
-									<a href="#" data-fls-category="" class="item-testimonial__category category">Manager</a>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- Skils -->
-					<section data-fls-fullpage-section="" class="page__skills skills">
-						<div class="skills__container">
-							<div data-fls-title="" class="skills__title title">
-								<div class="title__label">LEARNING PATH</div>
-								<h2 class="title__value">Education & Skills</h2>
-							</div>
-							<div class="skills__body">
-								<div class="skills__timeline timeline">
-									<div class="timeline__item">
-										<h4 class="timeline__title">Kingston university</h4>
-										<div class="timeline__text">
-											<p>Master's degree - Software Engineering</p>
-										</div>
-										<div class="timeline__date">2019 - 2021</div>
-									</div>
-									<div class="timeline__item">
-										<h4 class="timeline__title">Kingston university</h4>
-										<div class="timeline__text">
-											<p>Bachelor's degree - Computer Engineering</p>
-										</div>
-										<div class="timeline__date">2015 - 2019</div>
-									</div>
-									<div class="timeline__item">
-										<h4 class="timeline__title">Westminster School</h4>
-										<div class="timeline__text">
-											<p>Diploma's degree - Mathematics</p>
-										</div>
-										<div class="timeline__date">2013 - 2015</div>
-									</div>
-								</div>
-								<div class="skills__content content-skills">
-									<div class="content-skills__text text">
-										<p>
-											For 5+ years, I have been continuously learning in the field of front-end and experimenting with new
-              technologies and frameworks, and here you can see a summary of my skills.
-										</p>
-									</div>
-									<div class="content-skills__items">
-										<div class="content-skills__item">
-											<div class="content-skills__label">React</div>
-											<div class="content-skills__line">
-												<span style="width: 67.5%;"></span>
-											</div>
-										</div>
-										<div class="content-skills__item">
-											<div class="content-skills__label">Angular</div>
-											<div class="content-skills__line">
-												<span style="width: 52%;"></span>
-											</div>
-										</div>
-										<div class="content-skills__item">
-											<div class="content-skills__label">JavaScript</div>
-											<div class="content-skills__line">
-												<span style="width: 63.8%;"></span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-			</main>
-			<div data-fls-fullpage-section="" class="page__bottom bottom">
-				<section class="page__contacts contacts">
-					<div class="contacts__container">
-						<div class="contacts__content">
-							<form data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="/sendmail" class="contacts__form form">
-								<div class="form__item">
-									<input required data-fls-input="" type="text" name="form[name]" data-fls-form-errtext="Error" placeholder="Name" class="form__input" autocomplete="off">
-								</div>
-								<div class="form__item">
-									<input required data-fls-input="" autocomplete="off" type="text" name="form[email]" data-fls-form-errtext="Error" placeholder="Email" class="form__input">
-								</div>
-								<div class="form__item">
-									<textarea data-fls-input="" autocomplete="off" name="form[message]" placeholder="Message" data-error="Error" class="textarea form__input"></textarea>
-								</div>
-								<div class="form__item">
-									<button type="submit" class="form__button">Send Message</button>
-								</div>
-							</form>
-							<div class="contacts__body">
-								<ul class="contacts__list">
-									<li class="contacts__item item-contacts">
-										<div class="item-contacts__icon">
-											<img src="./assets/img/contacts/01.svg" alt="Image">
-										</div>
-										<div class="item-contacts__body">
-											<div class="item-contacts__title">Address</div>
-											<a href="#" class="item-contacts__text">3424 Layman Avenue, Fayetteville, NC</a>
-										</div>
-									</li>
-									<li class="contacts__item item-contacts">
-										<div class="item-contacts__icon">
-											<img src="./assets/img/contacts/02.svg" alt="Image">
-										</div>
-										<div class="item-contacts__body">
-											<div class="item-contacts__title">Phone</div>
-											<a href="tel:5014141541" class="item-contacts__text">(501) 414-1541</a>
-										</div>
-									</li>
-									<li class="contacts__item item-contacts">
-										<div class="item-contacts__icon">
-											<img src="./assets/img/contacts/03.svg" alt="Image">
-										</div>
-										<div class="item-contacts__body">
-											<div class="item-contacts__title">E-Mail</div>
-											<a href="mailto:devchapter@gmail.com" class="item-contacts__text">devchapter@gmail.com</a>
-										</div>
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>
 				</section>
-				<footer data-fls-footer="" class="footer">
-					<div class="footer__container">
-						<div data-fls-social="" class="footer__social social">
-							<a href="#" class="social__link --icon-s-insta"></a>
-							<a href="#" class="social__link --icon-s-github"></a>
-							<a href="#" class="social__link --icon-s-twitter"></a>
-							<a href="#" class="social__link --icon-s-linkedin"></a>
+				<!-- Career -->
+				<section data-fls-fullpage-section="" class="page__career career">
+					<div data-fls-tabs="768" class="career__container">
+						<div class="career__body">
+							<div data-fls-title="" class="career__title title">
+								<div class="title__label">career path</div>
+								<h2 class="title__value">Work Experices</h2>
+							</div>
+							<nav data-fls-tabs-titles="" class="career__navigation navigation-career">
+								<button type="button" class="navigation-career__title --tab-active">Apple</button>
+								<button type="button" class="navigation-career__title">Microsoft</button>
+								<button type="button" class="navigation-career__title">Facebook</button>
+								<button type="button" class="navigation-career__title">Slack</button>
+							</nav>
+							<div data-fls-tabs-body="" class="career__content content-career">
+								<div class="content-career__body">
+									<div class="content-career__header header-content-career">
+										<h4 class="header-content-career__title">
+											Front-end Developer
+											<a href="#" class="header-content-career__link-title">Apple .Inc</a>
+										</h4>
+										<div class="header-content-career__location">California, United States</div>
+										<div class="header-content-career__time">Nov 2020 - Present · Full-time</div>
+										<div class="header-content-career__categories">
+											<a href="#" data-fls-category="" class="category">Swift</a>
+											<a href="#" data-fls-category="" class="header-content-career__category category">Go</a>
+										</div>
+									</div>
+									<div class="content-career__main main-content-career">
+										<ul class="main-content-career__list">
+											<li class="main-content-career__item">Improving overall website performance for mobile users.</li>
+											<li class="main-content-career__item">Collaborate with back-end developers and web designers to improve usability</li>
+											<li class="main-content-career__item">Add voice search feature for mobile app.</li>
+											<li class="main-content-career__item">Developing an admin panel to manage contents, users, products and ...</li>
+										</ul>
+									</div>
+								</div>
+								<div class="content-career__body">
+									<div class="content-career__header header-content-career">
+										<h4 class="header-content-career__title">
+											Front-end Developer
+											<a href="#" class="header-content-career__link-title">Microsoft</a>
+										</h4>
+										<div class="header-content-career__location">California, United States</div>
+										<div class="header-content-career__time">Nov 2020 - Present · Full-time</div>
+										<div class="header-content-career__categories">
+											<a href="#" data-fls-category="" class="category">Swift</a>
+											<a href="#" data-fls-category="" class="header-content-career__category category">Go</a>
+										</div>
+									</div>
+									<div class="content-career__main main-content-career">
+										<ul class="main-content-career__list">
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatum, maiores ducimus similique
+                  commodi nihil veniam natus eos animi quidem sint reprehenderit corporis mollitia alias saepe dolores
+                  minus iste explicabo.
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi consectetur ea vero eaque,
+                  molestias
+                  minima, nulla sint odit cupiditate ad impedit eligendi voluptate veritatis explicabo, amet tenetur
+                  tempore et.
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate earum architecto ad velit.
+                  Excepturi, quidem illo. Nobis ut reprehenderit vitae, dolores facere quod aliquid similique id
+                  exercitationem vel, odit earum!
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, eveniet adipisci ipsam quae nihil
+                  doloribus reprehenderit voluptatem. Illum, consequatur quibusdam, tempora aliquid distinctio
+                  repudiandae, esse ad ullam qui perferendis alias?
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="content-career__body">
+									<div class="content-career__header header-content-career">
+										<h4 class="header-content-career__title">
+											Front-end Developer
+											<a href="#" class="header-content-career__link-title">Facebook</a>
+										</h4>
+										<div class="header-content-career__location">California, United States</div>
+										<div class="header-content-career__time">Nov 2020 - Present · Full-time</div>
+										<div class="header-content-career__categories">
+											<a href="#" data-fls-category="" class="category">Swift</a>
+											<a href="#" data-fls-category="" class="header-content-career__category category">Go</a>
+										</div>
+									</div>
+									<div class="content-career__main main-content-career">
+										<ul class="main-content-career__list">
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatum, maiores ducimus similique
+                  commodi nihil veniam natus eos animi quidem sint reprehenderit corporis mollitia alias saepe dolores
+                  minus iste explicabo.
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi consectetur ea vero eaque,
+                  molestias
+                  minima, nulla sint odit cupiditate ad impedit eligendi voluptate veritatis explicabo, amet tenetur
+                  tempore et.
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate earum architecto ad velit.
+                  Excepturi, quidem illo. Nobis ut reprehenderit vitae, dolores facere quod aliquid similique id
+                  exercitationem vel, odit earum!
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, eveniet adipisci ipsam quae nihil
+                  doloribus reprehenderit voluptatem. Illum, consequatur quibusdam, tempora aliquid distinctio
+                  repudiandae, esse ad ullam qui perferendis alias?
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="content-career__body">
+									<div class="content-career__header header-content-career">
+										<h4 class="header-content-career__title">
+											Front-end Developer
+											<a href="#" class="header-content-career__link-title">Slack</a>
+										</h4>
+										<div class="header-content-career__location">California, United States</div>
+										<div class="header-content-career__time">Nov 2020 - Present · Full-time</div>
+										<div class="header-content-career__categories">
+											<a href="#" data-fls-category="" class="category">Swift</a>
+											<a href="#" data-fls-category="" class="header-content-career__category category">Go</a>
+										</div>
+									</div>
+									<div class="content-career__main main-content-career">
+										<ul class="main-content-career__list">
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatum, maiores ducimus similique
+                  commodi nihil veniam natus eos animi quidem sint reprehenderit corporis mollitia alias saepe dolores
+                  minus iste explicabo.
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi consectetur ea vero eaque,
+                  molestias
+                  minima, nulla sint odit cupiditate ad impedit eligendi voluptate veritatis explicabo, amet tenetur
+                  tempore et.
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate earum architecto ad velit.
+                  Excepturi, quidem illo. Nobis ut reprehenderit vitae, dolores facere quod aliquid similique id
+                  exercitationem vel, odit earum!
+											</li>
+											<li class="main-content-career__item">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, eveniet adipisci ipsam quae nihil
+                  doloribus reprehenderit voluptatem. Illum, consequatur quibusdam, tempora aliquid distinctio
+                  repudiandae, esse ad ullam qui perferendis alias?
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="footer__copy">© 2022 - DevChapter</div>
 					</div>
-				</footer>
+				</section>
+				<!-- Blog -->
+				<section data-fls-fullpage-section="" class="page__blog blog">
+					<div class="blog__container">
+						<div data-fls-title="" class="blog__title title">
+							<div class="title__label">MY ARTICLES</div>
+							<h2 class="title__value">Personal Blog</h2>
+						</div>
+						<div class="blog__items">
+							<article class="blog__item item-blog">
+								<div class="item-blog__image">
+									<picture>
+										<img alt="image-01" src="./assets/img/blog/image-01.webp">
+									</picture>
+								</div>
+								<div class="item-blog__body">
+									<h4 class="item-blog__title">
+										<a href="#" class="item-blog__link-title">How to prototype in figma</a>
+									</h4>
+									<div class="item-blog__date">July 15, 2021</div>
+									<div class="item-blog__text">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet.
+                Fusce finibus ...
+										</p>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet.
+                Fusce finibus ...
+										</p>
+									</div>
+									<a href="#" class="item-blog__link">Continue Reading</a>
+								</div>
+							</article>
+							<article class="blog__item item-blog">
+								<div class="item-blog__image">
+									<picture>
+										<img alt="image-02" src="./assets/img/blog/image-02.webp">
+									</picture>
+								</div>
+								<div class="item-blog__body">
+									<h4 class="item-blog__title">
+										<a href="#" class="item-blog__link-title">Being more productive with Notion.</a>
+									</h4>
+									<div class="item-blog__date">Aug 8, 2020</div>
+									<div class="item-blog__text">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet.
+                Fusce finibus ...
+										</p>
+									</div>
+									<a href="#" class="item-blog__link">Continue Reading</a>
+								</div>
+							</article>
+							<article class="blog__item item-blog">
+								<div class="item-blog__image">
+									<picture>
+										<img alt="image-03" src="./assets/img/blog/image-03.webp">
+									</picture>
+								</div>
+								<div class="item-blog__body">
+									<h4 class="item-blog__title">
+										<a href="#" class="item-blog__link-title">Beginners guide to adobe illustrator</a>
+									</h4>
+									<div class="item-blog__date">Feb 19, 2021</div>
+									<div class="item-blog__text">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet.
+                Fusce finibus ...
+										</p>
+									</div>
+									<a href="#" class="item-blog__link">Continue Reading</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<!-- Testimonials -->
+				<section data-fls-fullpage-section="" class="page__testimonials testimonials">
+					<div class="testimonials__container">
+						<div data-fls-title="" class="testimonials__title title">
+							<div class="title__label">MY CLIENTS</div>
+							<h2 class="title__value">Testimonials</h2>
+						</div>
+						<div class="testimonials__items">
+							<div class="testimonials__item item-testimonial">
+								<figure class="item-testimonial__avatar">
+									<picture>
+										<img alt="Avatar" src="./assets/img/testimonials/01.webp">
+									</picture>
+								</figure>
+								<div class="item-testimonial__text text">
+									<p>
+										We were very pleased to hear how you resolved our website's user interface issues and challenges.
+									</p>
+								</div>
+								<div class="item-testimonial__name">Amelia Miller</div>
+								<a href="#" data-fls-category="" class="item-testimonial__category category">Designer</a>
+							</div>
+							<div class="testimonials__item item-testimonial">
+								<figure class="item-testimonial__avatar">
+									<picture>
+										<img alt="Avatar" src="./assets/img/testimonials/02.webp">
+									</picture>
+								</figure>
+								<div class="item-testimonial__text text">
+									<p>
+										I’m glad I decided to work with you. The project was delivered on time with all the requirements.
+									</p>
+									<p>Lorem, ipsum dolor.</p>
+								</div>
+								<div class="item-testimonial__name">James Delaney</div>
+								<a href="#" data-fls-category="" class="item-testimonial__category category">Developer</a>
+							</div>
+							<div class="testimonials__item item-testimonial">
+								<figure class="item-testimonial__avatar">
+									<picture>
+										<img alt="Avatar" src="./assets/img/testimonials/03.webp">
+									</picture>
+								</figure>
+								<div class="item-testimonial__text text">
+									<p>
+										The management of our projects was always faced with difficulties, but you handled these well.
+									</p>
+								</div>
+								<div class="item-testimonial__name">Isabella Bennett</div>
+								<a href="#" data-fls-category="" class="item-testimonial__category category">Manager</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Skils -->
+				<section data-fls-fullpage-section="" class="page__skills skills">
+					<div class="skills__container">
+						<div data-fls-title="" class="skills__title title">
+							<div class="title__label">LEARNING PATH</div>
+							<h2 class="title__value">Education & Skills</h2>
+						</div>
+						<div class="skills__body">
+							<div class="skills__timeline timeline">
+								<div class="timeline__item">
+									<h4 class="timeline__title">Kingston university</h4>
+									<div class="timeline__text">
+										<p>Master's degree - Software Engineering</p>
+									</div>
+									<div class="timeline__date">2019 - 2021</div>
+								</div>
+								<div class="timeline__item">
+									<h4 class="timeline__title">Kingston university</h4>
+									<div class="timeline__text">
+										<p>Bachelor's degree - Computer Engineering</p>
+									</div>
+									<div class="timeline__date">2015 - 2019</div>
+								</div>
+								<div class="timeline__item">
+									<h4 class="timeline__title">Westminster School</h4>
+									<div class="timeline__text">
+										<p>Diploma's degree - Mathematics</p>
+									</div>
+									<div class="timeline__date">2013 - 2015</div>
+								</div>
+							</div>
+							<div class="skills__content content-skills">
+								<div class="content-skills__text text">
+									<p>
+										For 5+ years, I have been continuously learning in the field of front-end and experimenting with new
+              technologies and frameworks, and here you can see a summary of my skills.
+									</p>
+								</div>
+								<div class="content-skills__items">
+									<div class="content-skills__item">
+										<div class="content-skills__label">React</div>
+										<div class="content-skills__line">
+											<span style="width: 67.5%;"></span>
+										</div>
+									</div>
+									<div class="content-skills__item">
+										<div class="content-skills__label">Angular</div>
+										<div class="content-skills__line">
+											<span style="width: 52%;"></span>
+										</div>
+									</div>
+									<div class="content-skills__item">
+										<div class="content-skills__label">JavaScript</div>
+										<div class="content-skills__line">
+											<span style="width: 63.8%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
+		</main>
+		<div data-fls-fullpage-section="" class="page__bottom bottom">
+			<section class="page__contacts contacts">
+				<div class="contacts__container">
+					<div class="contacts__content">
+						<form data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="/sendmail" class="contacts__form form">
+							<div class="form__item">
+								<input required data-fls-input="" type="text" name="form[name]" data-fls-form-errtext="Error" placeholder="Name" class="form__input" autocomplete="off">
+							</div>
+							<div class="form__item">
+								<input required data-fls-input="" autocomplete="off" type="text" name="form[email]" data-fls-form-errtext="Error" placeholder="Email" class="form__input">
+							</div>
+							<div class="form__item">
+								<textarea data-fls-input="" autocomplete="off" name="form[message]" placeholder="Message" data-error="Error" class="textarea form__input"></textarea>
+							</div>
+							<div class="form__item">
+								<button type="submit" class="form__button">Send Message</button>
+							</div>
+						</form>
+						<div class="contacts__body">
+							<ul class="contacts__list">
+								<li class="contacts__item item-contacts">
+									<div class="item-contacts__icon">
+										<img src="./assets/img/contacts/01.svg" alt="Image">
+									</div>
+									<div class="item-contacts__body">
+										<div class="item-contacts__title">Address</div>
+										<a href="#" class="item-contacts__text">3424 Layman Avenue, Fayetteville, NC</a>
+									</div>
+								</li>
+								<li class="contacts__item item-contacts">
+									<div class="item-contacts__icon">
+										<img src="./assets/img/contacts/02.svg" alt="Image">
+									</div>
+									<div class="item-contacts__body">
+										<div class="item-contacts__title">Phone</div>
+										<a href="tel:5014141541" class="item-contacts__text">(501) 414-1541</a>
+									</div>
+								</li>
+								<li class="contacts__item item-contacts">
+									<div class="item-contacts__icon">
+										<img src="./assets/img/contacts/03.svg" alt="Image">
+									</div>
+									<div class="item-contacts__body">
+										<div class="item-contacts__title">E-Mail</div>
+										<a href="mailto:devchapter@gmail.com" class="item-contacts__text">devchapter@gmail.com</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div data-fls-social="" class="footer__social social">
+						<a href="#" class="social__link --icon-s-insta"></a>
+						<a href="#" class="social__link --icon-s-github"></a>
+						<a href="#" class="social__link --icon-s-twitter"></a>
+						<a href="#" class="social__link --icon-s-linkedin"></a>
+					</div>
+					<div class="footer__copy">© 2022 - DevChapter</div>
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>
